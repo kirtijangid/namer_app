@@ -41,6 +41,7 @@ class MyHomePage extends StatelessWidget {
 
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text('A random Awesome idea:'),
           //Text(appState.current.asLowerCase),
